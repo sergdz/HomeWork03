@@ -9,10 +9,6 @@ if(b === "+" ) {
 
 }
 
-else {
-    result = alert("Не верный символ")
-}
-
 if(b === "/") {
     result = a / c;
     alert(result);
