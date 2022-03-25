@@ -9,25 +9,25 @@ if(b === "+" ) {
 
 }
 
-if(b === "/") {
+ else if(b === "/") {
     result = a / c;
     alert(result);
 
 
 }
 
-if(b === "-") {
+else if(b === "-") {
     result = a - c;
     alert(result);
 
 }
 
-if(b === "*") {
+else if(b === "*") {
     result = a * c;
     alert(result);
 
 }
 
 else {
-    result = alert("Не верный символ")
+     alert("Не верный символ")
 }
