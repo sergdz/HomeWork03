@@ -5,29 +5,22 @@ let result;
 
 if(b === "+" ) {
     result = a + c;
-    alert(result)
+   console.log(`Результат ${a + b + c} = ${result}`)
 
-}
-
- else if(b === "/") {
+} else if(b === "/") {
     result = a / c;
-    alert(result);
+    console.log(`Результат ${a + b + c} = ${result}`)
 
 
-}
-
-else if(b === "-") {
+} else if(b === "-") {
     result = a - c;
-    alert(result);
+    console.log(`Результат ${a + b + c} = ${result}`)
 
-}
-
-else if(b === "*") {
+} else if(b === "*") {
     result = a * c;
-    alert(result);
+    console.log(`Результат ${a + b + c} = ${result}`)
 
-}
-
-else {
+} else {
      alert("Не верный символ")
 }
+
