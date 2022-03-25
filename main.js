@@ -3,31 +3,35 @@ let b = prompt("Введите действие");
 let c = Number(prompt("Введите второе число"));
 let result;
 
-if (b === "+") {
+if(b === "+" ) {
     result = a + c;
     alert(result)
 
 }
 
-if (b === "/") {
+else {
+    result = alert("Не верный символ")
+}
+
+if(b === "/") {
     result = a / c;
     alert(result);
 
 
 }
 
-if (b === "-") {
+if(b === "-") {
     result = a - c;
     alert(result);
 
 }
 
-if (b === "*") {
+if(b === "*") {
     result = a * c;
     alert(result);
 
 }
 
-if (b !== "+" && b !== "-" && b !== "/" && b !== "*") {
-    result = alert("Не верный символ")
+else {
+    result = "Не верный символ"
 }
